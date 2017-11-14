@@ -9,7 +9,7 @@
 
     // Prepare arguments with the form html and html flag
     arguments[0].text = swalForm.generateHtmlForm()
-    arguments[0].html = true
+    arguments[0].content = 'input'
 
     // forward arguments
     swal.apply({}, arguments)
